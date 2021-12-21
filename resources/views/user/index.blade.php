@@ -37,14 +37,16 @@
 									<th scope="col">Action</th>
 								</tr>
 							</thead>
+							
 							@foreach ($result as $key => $user)
 							<tbody>
-								<tr>
 									<td>{{++$key}}</td>
 									<td>{{$user->name}}</td>
 									<td>{{$user->email}}</td>
 									<td>{{$user->role}}</td>
-									<td>{{$user->biodata->name}}</td>
+									
+									<td>@isset($user->biodata->name){{$user->biodata->name}}@endisset</td>
+									
 									<td><a href="{{route('biodata.create',$user->id,['id'=>$user->id])}}">fill biodata</a></td>
 								</tr>
 							</tbody>
