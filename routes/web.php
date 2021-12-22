@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserControllers;
 use App\Http\Controllers\BiodataControllers;
+use App\Http\Controllers\ProgramControllers;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,4 +37,6 @@ Auth::routes();
 Route::resource('user', UserControllers::class);
 Route::resource('biodata', BiodataControllers::class)->except('create');
 Route::get('biodata/create/{id}', BiodataControllers::class.'@create')->name('biodata.create');
+
+Route::resource('program', ProgramControllers::class);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -10,7 +10,7 @@
 @section('content')
 @component('components.breadcrumb')
 @slot('breadcrumb_title')
-<h3>Create Biodata</h3>
+<h3>Create Program</h3>
 @endslot
 <li class="breadcrumb-item">Tables</li>
 <li class="breadcrumb-item">Bootstrap Tables</li>
@@ -24,7 +24,6 @@
 				<div class="card-body">
 					<form class="needs-validation" novalidate="" method="POST" action="{{route('biodata.store')}}">
 						@csrf
-						<input type="hidden" name="user_id" value="{{$id}}">
 						<div class="row g-3">
 							<div class="col-md-6">
 								<label class="form-label" for="validationCustom01">Street Adress</label>
