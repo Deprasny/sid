@@ -58,7 +58,8 @@ class ProgramControllers extends Controller
      */
     public function edit($id)
     {
-        //
+        $result = Program::find($id);
+        return view('program.edit', compact('result'));
     }
 
     /**

@@ -26,21 +26,34 @@
 						@csrf
 						<div class="row g-3">
 							<div class="col-md-6">
-								<label class="form-label" for="validationCustom01">Street Adress</label>
-								<input class="form-control" id="validationCustom01" type="text" name="street_address" value="" required="" />
+								<label class="form-label" for="validationCustom01">Name</label>
+								<input class="form-control" id="validationCustom01" type="text" name="name" value="" required="" />
 								<div class="valid-feedback">Looks good!</div>
 							</div>
 							<div class="col-md-6">
-								<label class="form-label" for="validationCustom02">Phone Number</label>
-								<input class="form-control" id="validationCustom02" type="text" name="phone_number" required="" />
+								<label class="form-label" for="validationCustom02">Place</label>
+								<input class="form-control" id="validationCustom02" type="text" name="place" required="" />
 								<div class="valid-feedback">Looks good!</div>
 							</div>
 						</div>
 						<br>
 						<div class="row g-3">
 							<div class="col-md-6">
-								<label class="form-label" for="validationCustom01">District</label>
-								<input class="form-control" id="validationCustom01" type="text" name="district" value="" required="" />
+								<label class="form-label" for="validationCustom01">End Date</label>
+								<input class="form-control" id="validationCustom01" type="date" name="end_date" value="" required="" />
+								<div class="valid-feedback">Looks good!</div>
+							</div>
+							<div class="col-md-6">
+								<label class="form-label" for="validationCustom02">Start Date</label>
+								<input class="form-control" id="validationCustom02" type="date" name="start_date" required="" />
+								<div class="valid-feedback">Looks good!</div>
+							</div>
+						</div>
+						<br>
+						<div class="row g-3">
+							<div class="col-md-6">
+								<label class="form-label" for="validationCustom01">City</label>
+								<input class="form-control" id="validationCustom01" type="text" name="city" value="" required="" />
 								<div class="valid-feedback">Looks good!</div>
 							</div>
 							<div class="col-md-6">
@@ -52,121 +65,30 @@
 						<br>
 						<div class="row g-3">
 							<div class="col-md-6">
+								<label class="form-label" for="validationCustom01">End Recruitment</label>
+								<input class="form-control" id="validationCustom01" type="date" name="end_rec" value="" required="" />
+								<div class="valid-feedback">Looks good!</div>
+							</div>
+							<div class="col-md-6">
+								<label class="form-label" for="validationCustom02">Start Recruitment</label>
+								<input class="form-control" id="validationCustom02" type="date" name="start_rec" required="" />
+								<div class="valid-feedback">Looks good!</div>
+							</div>
+						</div>
+						<br>
+						<div class="row g-3">
+							<div class="col-md-6">
 								<label class="form-label" for="validationCustom01">Country</label>
 								<input class="form-control" id="validationCustom01" type="text" name="country" value="" required="" />
 								<div class="valid-feedback">Looks good!</div>
 							</div>
 							<div class="col-md-6">
-								<label class="form-label" for="validationCustom02">Zip</label>
-								<input class="form-control" id="validationCustom02" type="text" name="zip" required="" />
+								<label class="form-label" for="validationCustom02">Description</label>
+								<input class="form-control" id="validationCustom02" type="text" name="description" required="" />
 								<div class="valid-feedback">Looks good!</div>
 							</div>
 						</div>
-						<br>
-						<div class="row g-3">
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom01">Education</label>
-								<input class="form-control" id="validationCustom01" type="text" name="education" value="" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom02">Start Year</label>
-								<input class="form-control" id="validationCustom02" type="date" name="start_year" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-						</div>
-						<br>
-						<div class="row g-3">
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom01">End year</label>
-								<input class="form-control" id="validationCustom01" type="date" name="end_year" value="" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom02">Education Level</label>
-								<input class="form-control" id="validationCustom02" type="text" name="education_id" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-						</div>
-						<br>
-						<div class="row g-3">
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom01">Job Name</label>
-								<input class="form-control" id="validationCustom01" type="text" name="job_name" value="" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom02">Institution</label>
-								<input class="form-control" id="validationCustom02" type="text" name="institution" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-						</div>
-						<br>
-						<div class="row g-3">
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom01">Start Date</label>
-								<input class="form-control" id="validationCustom01" type="date" name="start_date" value="" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom02">End Date</label>
-								<input class="form-control" id="validationCustom02" type="date" name="end_date" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-						</div>
-						<br>
-						<div class="row g-3">
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom01">Street Address Job</label>
-								<input class="form-control" id="validationCustom01" type="text" name="street_address_job" value="" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom02">District Job</label>
-								<input class="form-control" id="validationCustom02" type="text" name="ditrict_job" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-						</div>
-						<br>
-						<div class="row g-3">
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom01">Province Job</label>
-								<input class="form-control" id="validationCustom01" type="text" name="province_job" value="" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom02">Country Job</label>
-								<input class="form-control" id="validationCustom02" type="text" name="country_job" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-						</div>
-						<br>
-						<div class="row g-3">
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom01">Zip Job</label>
-								<input class="form-control" id="validationCustom01" type="text" name="zip_job" value="" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom02">Phone Job</label>
-								<input class="form-control" id="validationCustom02" type="text" name="phone_job" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-						</div>
-						<br>
-						<div class="row g-3">
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom01">Email Job</label>
-								<input class="form-control" id="validationCustom01" type="text" name="email_job" value="" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-							<div class="col-md-6">
-								<label class="form-label" for="validationCustom02">Photo</label>
-								<input class="form-control" id="validationCustom02" type="text" name="img" required="" />
-								<div class="valid-feedback">Looks good!</div>
-							</div>
-						</div>
-						
+
 						<br>
 						<button class="btn btn-primary" type="submit">Submit form</button>
 					</form>
